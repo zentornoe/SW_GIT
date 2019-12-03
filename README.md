@@ -1,10 +1,8 @@
-# <JAVA>
+# JAVA
 
-## <PRAMID SHAPED NUMBER PRINTING>
- 
----
-### <PRINT DIGITS AS PRAMID>
+## PRINT DIGITS AS PRAMID
 * all digits are 1~9.
+
 ----
 ### HW 14.java
 * scan the integer and print pramid shaped numbers, each line' number is starting from 1 and increasing from right to left
@@ -34,7 +32,7 @@
 
 
 
-# <MATLAB>
+# MATLAB
 ---
 ## interp.m
 * select method 'lagrange' of 'newton'. this function performs interpolation of polynomial.
