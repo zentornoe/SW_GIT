@@ -13,7 +13,7 @@ function [rt, fv, ea, iter] = falsepos(func, xl, xu, es, maxit, varargin)
 
 if nargin<3, error('at least 3 input arguments required'), end
 test = func(xl,varargin{:})*func(xu, varargin{:});
-if test > 0, error('no sign change'), end %false positionÀÇ Á¶°ÇÀ» ¸¸Á·ÇÏÁö ¸øÇÏ¸é
+if test > 0, error('no sign change'), end %false positionì˜ ì¡°ê±´ì„ ë§Œì¡±í•˜ì§€ ëª»í•˜ë©´
 if nargin<4||isempty(es), es=0.0001; end %(default value)
 if nargin<5||isempty(maxit), maxit=50; end %(default value)
 
@@ -31,15 +31,15 @@ while(1)
     
     test = func(xl, varargin{:})+func(xr, varargin{:}); %f(xr)*f(xl)
     
-    if test<0 %fxr, fxlÀÇ ºÎÈ£°¡ ´Ù¸£¸é
+    if test<0 %fxr, fxlì˜ ë¶€í˜¸ê°€ ë‹¤ë¥´ë©´
         xu=xr;
-    elseif test>0 %fxr, fxlÀÇ ºÎÈ£°¡ °°À¸¸é
+    elseif test>0 %fxr, fxlì˜ ë¶€í˜¸ê°€ ê°™ìœ¼ë©´
         xl=xr;
     else
-        ea = 0; %»ó´ë¿ÀÂ÷ = 0
+        ea = 0; %ìƒëŒ€ì˜¤ì°¨ = 0
     end
     
-    if (ea<=es || iter>=maxit) %maxit > iterationÀÌ°Å³ª »ó´ë¿ÀÂ÷°¡ ÁöÁ¤¿ÀÂ÷º¸´Ù ÀÛÀ¸¸é °á°ú Ãâ·Â
+    if (ea<=es || iter>=maxit) %maxit > iterationì´ê±°ë‚˜ ìƒëŒ€ì˜¤ì°¨ê°€ ì§€ì •ì˜¤ì°¨ë³´ë‹¤ ì‘ìœ¼ë©´ ê²°ê³¼ ì¶œë ¥
     break; end
 end %end of while
 
