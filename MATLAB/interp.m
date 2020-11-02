@@ -5,7 +5,7 @@ function [zint] = interp(x, y, z, xx, yy, method)
 %   z = dependent variable= dependent variable
 %   xx = value of xx at which the interpolation is calculatedat which the interpolation is calculated
 %   yy = value of y at which the interpolation is calculated= value of y at which the interpolation is calculated
-%   ¡®method¡¯ = argument to select ¡®Newton¡¯ or Lagrange¡¯
+%   Â¡Â®methodÂ¡Â¯ = argument to select Â¡Â®NewtonÂ¡Â¯ or LagrangeÂ¡Â¯
 %
 %output
 %   zint = interpolated value of dependent variable
