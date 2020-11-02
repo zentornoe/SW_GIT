@@ -1,0 +1,10 @@
+1977	STAR WARS 4	George Lucas	;
+1980	STAR WARS 5	Irvin Kershner	;
+1983	STAR WARS 6	Richard Marquand	;
+1999	STAR WARS 1	George Lucas	;
+2002	STAR WARS 2	George Lucas	;
+2005	STAR WARS 3	George Lucas	;
+2015	STAR WARS 7	J. J. Abrams	;
+2017	STAR WARS 8	Rian Johnson	;
+2019	STAR WARS 9	J. J. Abrams	;
+;
