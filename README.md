@@ -31,7 +31,7 @@ Input the size of the matrix and print the sum of each column and row at the bot
 * * *
 
 ## MATLAB ( Numerical Analysis )
----
+
 ### 1) interp.m
 select method 'lagrange' of 'newton'. this function performs interpolation of polynomial.
 
