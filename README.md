@@ -43,3 +43,25 @@ find the root by using goldmax method
 
 ### 4) modsecant.m 
  find the root by using modified secant method.
+ 
+ * * *
+ 
+ 
+ ## 3. Data Structure
+ ### 1) 
+ 
+ 
+ * * *
+ 
+ ## 4. SoC ( Zync, ARM Cortex 7 )
+ ### 1) 
+ 
+ 
+ * * *
+ 
+
+## 5. Operating System
+### 1)
+
+
+* * *
