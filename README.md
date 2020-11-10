@@ -60,7 +60,7 @@ find the root by using goldmax method
  * * *
  
 
-## 5. Operating System
+## 5. Operating System ( LINUX, Ubuntu )
 ### 1)
 
 
