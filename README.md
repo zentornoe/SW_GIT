@@ -110,12 +110,35 @@ The program manages metadata and stores data from previously processed files.
 
 Determine commands for 'Save', 'Read', 'List', and 'End' to perform functions corresponding to each command. Continue to enter commands and files until 'End' is entered. (It was handled without regard to the case(ABC = abc).)
 
-'Save' saves the file by dividing it by the number '_n_'. Save function is operating by thread function.
+'Store' saves the file by dividing it by the number '_n_'. Save function is operating by thread function.
 
 'Read' read previously stored files(divided) as a single file.
 
 'List' reads and prints metadata file.
 
 'End' ends the program.
+
+#### _How to Use Commands?_
+Store : 
+~~~
+store (input file name) (storing file name) (# of file blocks)
+~~~
+
+Read :
+~~~
+read (stored file name) (output file name)
+~~~
+
+List :
+~~~
+list
+~~~
+
+End :
+~~~
+end
+~~~
+
+
 
 * * *
